@@ -1,0 +1,23 @@
+.bg-box {
+  width: 1000px;
+  height: 600px;
+
+  background:
+     
+    url('https://www.freeiconspng.com/uploads/lamp-png-0.png') repeat-x top center, 
+    url('https://vignette.wikia.nocookie.net/mashaandthebear/images/e/e0/Ёжик.png/revision/latest?cb=20180209130328&path-prefix=ru') repeat-y left top, 
+    url('https://avatanplus.com/files/resources/mid/58eb07b830eab15b56162788.png') repeat-y right top,
+    url('https://www.freeiconspng.com/uploads/grass-png-images-pictures-transparent-28.png') repeat-x bottom center, 
+    url('https://img2.goodfon.ru/wallpaper/big/0/5b/pole-zelen-trava-dom-derevya.jpg') no-repeat center center / cover; 
+
+  background-size:
+    40px auto,   
+    40px auto,   
+    auto 40px,    
+    auto 150px,    
+    550px 400px;        
+
+  background-color: green;
+  margin: 20px auto;
+  border: 2px solid red;
+}
